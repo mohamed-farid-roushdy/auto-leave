@@ -1,0 +1,86 @@
+.main{
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+    direction: rtl;
+    height: 400px;
+}
+.dataInput{
+    width: 400px;
+}
+
+
+.title{
+    color: var(--color-font-black1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.rowInput{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    direction: rtl;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+
+
+
+.input{
+    padding: 5px;
+    height: 40px;
+    width: 300px;
+    border-radius:5px ;
+    border: 1px solid gray;
+
+}
+
+.saveBtn{
+   width: 60px;
+   height: 30px;
+   margin: 10px;
+   border-radius: 5px;
+   border: 1px solid white;
+   background: var(  --color-primary-shadow3);
+   color: var(--color-font-black1);
+   border: 1px solid rgb(161, 159, 159);
+   font-size: 1em;
+   cursor: pointer;
+
+
+}
+
+.desc{
+    color: var(--color-font-black1);
+    font-size: .9em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.btn{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: var(  --color-primary-shadow3);
+    color: var(--color-font-black1);
+    border: 1px solid rgb(161, 159, 159);
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.imageLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

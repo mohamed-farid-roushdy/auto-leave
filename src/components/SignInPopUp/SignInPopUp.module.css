@@ -1,0 +1,98 @@
+.overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    /* transform: translate(-19%,46%); */
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.mainPop {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    flex-direction: column;
+    background: whitesmoke;
+    max-width: 600px;
+    width: 100%;
+    height: 600px;
+    color: black;
+    /* font-size: 5em; */
+    background: white;
+    border-radius:10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: fixed;
+   
+    /* transform: translate(30%,50%); */
+    transform: translate(80%,-5%);
+
+    z-index: 2;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.closebtn{
+    font-size: 2em;
+    color: red;
+    cursor: pointer;
+}
+
+.inputDiv{
+    margin-top: 20px;
+    max-width: 400px;
+    width: 100%;
+    color: var(--color-font-black1);
+}
+
+.inputBtn{
+
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(167, 166, 166);
+    font-size: 1.5em;
+    padding: 10px;
+    color: var(--color-font-black1);
+    
+
+}
+
+.loginBtn{
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    background: var(  --color-primary-shadow);
+    border: 1px solid white;
+    font-size: 1.5em;
+    color: white;
+}
+
+.createDiv{
+    margin-top: 50px;
+    max-width: 400px;
+    width: 100%;
+    color: var(--color-font-black1);
+}
+
+.createBtn{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background: var( --color-font-black2);
+    font-size: 1.5em;
+    border:var(--color-font-black1) 1px solid;
+    cursor: pointer;
+}
+
+.h6{
+    color: var(--color-primary-shadow);
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+

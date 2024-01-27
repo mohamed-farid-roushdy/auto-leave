@@ -1,0 +1,19 @@
+.main{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subject{
+    background: var( --color-primary-shadow3);
+    color: var(--color-font-black1);
+    margin-bottom: 20px;
+}
+
+.contenue{
+    color: var( --color-primary);
+    cursor: pointer;
+
+}
